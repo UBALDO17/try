@@ -1,0 +1,35 @@
+sudo apt update
+sudo apt install git
+sudo apt --fix-broken install
+git --version
+git help
+:q!
+
+personal access token
+
+touch ubuntu.txt
+echo "message" > ubuntu.txt
+
+git clone repo
+git init
+git status
+git log
+mkdir folder
+
+git add .
+git commit -m "message"
+git push origin branch
+
+git checkout -b feature
+git branch -d feature (delete branch)
+
+git merge --no-ff feature -m "message"
+
+git push origin HEAD:main
+git pull origin main
+git fetch origin branch
+
+git reset --hard <commit hash>
+git branch --no-merged
+git config --global user.name "username"
+git config --global user.email "email"
